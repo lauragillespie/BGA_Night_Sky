@@ -1,0 +1,179 @@
+:root {
+--cyan:#0ff;
+--light-blue:#2dc4ff;
+--blue-hover:#007ea7;
+--blue:#00ade7;
+--dark-blue:#003459;
+--gray-to-black:linear-gradient(#888,#555);
+--blue-black:#000530;
+--light-light-gray:#c9c9c9;
+--light-gray:#3b3e4ab3;
+--gray:#5a5a5acc;
+--dark-gray:#272727;
+--white:#fdfdfd;
+--black:#000;
+--brown:#44270673;
+--accent:#f2ba03;
+}
+
+body {
+background-color:var(--light-gray);
+color:var(--black);
+font-size:24px;
+font-weight:700;
+}
+
+.menu_item,.gamename,.row-label,.pageheader_menuitem,pageheader h2,.score,#gametables_yours_wrap > p,h4,th,td,p {
+color:var(--white)!important;
+}
+
+.player-area > h2 {
+font-size:30px!important;
+font-weight:700;
+}
+
+.smalltext {
+font-size:18px;
+}
+
+.pagesection {
+background-color:var(--blue-black);
+padding:2%;
+}
+
+.pagesection h2 {
+font-size:30px!important;
+}
+
+.pagesection h3 {
+font-size:24px!important;
+}
+
+.pagesection h2,.pagesection h3,.portlet h2,.portlet h3 {
+background-color:var(--gray)!important;
+background:var(--gray)!important;
+color:var(--white);
+font-weight:700;
+}
+
+#overall-footer,#topbar.newbgastyle,.sectiontitle_dropdown_menu,#topbar.ingame,.pageheader {
+background-color:var(--blue-black)!important;
+background:var(--blue-black)!important;
+color:var(--dark_gray);
+padding:2%;
+}
+
+.notification_nbr_icon,#myingameprogress_nbr,.notification_nbr_icon,.playerfriends_nbr {
+color:var(--cyan)!important;
+}
+
+#async_table_banner,#expected_table_banners .expected_banner {
+background:linear-gradient(180deg,#ffda00,#ffd422,#ffcd34,#ffc841,#ffc24d,#ffbd58,#ffb962,#ffb56b);
+color:var(--black);
+}
+
+.gamelist_item:hover {
+background:var(--dark-blue)!important;
+}
+
+#topbar.newbgastyle #friends_icon.friendsOnline #friends_baseicon,#topbar.newbgastyle #friends_icon,#friends_baseicon:hover,#mygameinprogress:hover,.toprightmenu_item,#menu_label:hover,.toprightmenu_item:hover {
+color:var(--blue)!important;
+}
+
+.pageheader .row {
+margin-bottom:10px;
+padding-left:5%;
+}
+
+.bgabutton {
+font-size:22px;
+}
+
+.bgabutton_blue,.bgabutton_gray {
+background:var(--light-blue);
+color:var(--black)!important;
+text-shadow:none;
+}
+
+.bgabutton_blue:hover,.bgabutton_gray:hover {
+background:var(--blue)!important;
+}
+
+.gamelist_item,.pageheader > div {
+background-color:var(--light-gray)!important;
+}
+
+.gametable {
+background-color:var(--light-gray);
+box-shadow:7px 7px 5px 0 gray;
+color:var(--white)!important;
+font-weight:700;
+font-size:30px!important;
+}
+
+.player_name_wrap .playername {
+color:var(--light-blue)!important;
+font-weight:700;
+}
+
+.score > .score-part {
+color:var(--black);
+}
+
+.chatwindowavatar .avatarwrap {
+color:var(--blue-black)!important;
+}
+
+.pageheader_menu_verylarge .pageheader_big_switch,.pageheader_menu_verylarge .pageheader_big_switch_dropdown .pageheader_menuitem.pageheader_menuitemselected,.score-entry {
+background-color:var(--light-gray)!important;
+color:var(--white);
+}
+
+.switcher_zone {
+background:var(--gray-to-black)!important;
+}
+
+.pageheader_menu_verylarge .pageheader_big_switch_dropdown .pageheader_menuitem {
+color:var(--black)!important;
+font-size:20px!important;
+}
+
+#statistics.pagesection {
+color:var(--white)!important;
+font-size:28px;
+}
+
+.standard_popin {
+background-color:var(--gray);
+}
+
+.menu_item {
+font-size:30px;
+}
+
+#page-title {
+background-color:var(--dark-blue)!important;
+color:var(--white)!important;
+}
+
+.suggestion_othergames {
+color:var(--light-light-gray);
+}
+
+.icon20_suggestion {
+color:var(--accent);
+}
+
+.wannaplayauto_button {
+border:1px solid var(--black);
+box-shadow:2px 2px 3px 0 var(--light-gray);
+}
+
+.gametable_status_asyncinit .gametable_colored_indicator,.gametable_status_asyncopen .gametable_colored_indicator,.gametable_status_meeting .gametable_colored_indicator,.gametable_status_tournamentopenturnbased .gametable_colored_indicator {
+background-position:67%;
+}
+
+.player_is_at_table .gametable.gametable_status_asyncopen {
+background-color:var(--dark-blue);
+border:var(--blue-black) 3px solid;
+}
